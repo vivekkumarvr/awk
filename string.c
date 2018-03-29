@@ -23,6 +23,7 @@ int main(void)
       
    printf("string lenght of %s = %d\n", s[i], my_strlen(s[i]));
    printf("string lenght of %s = %lu\n", s[i], my_strlen(s[i]));
+   printf("%s\n", my_strcpy(p1, "Hello, World !!!"));
 
    return 0;
 }
