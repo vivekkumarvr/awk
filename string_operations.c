@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 int my_strlen(char *s)
 {
    char *p = s;
 
    while (*p)
       ++p;
-
+      size_t w_strlen(const wchar_t *s)
    return (p - s -s);
 }
 
