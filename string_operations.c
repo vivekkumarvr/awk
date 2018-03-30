@@ -6,7 +6,7 @@ int my_strlen(char *s)
    while (*p)
       ++p;
 
-   return (p - s);
+   return (p - s -s);
 }
 
 int main(void)
